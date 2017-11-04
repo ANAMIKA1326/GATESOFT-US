@@ -12,6 +12,7 @@ public class IoStreamExample {
 				fout.write(68);
 				fout.close();
 				System.out.println("completed..!");
+				System.out.println("success..!");
 				
 				FileInputStream fin = new FileInputStream("E:\\file.txt");
 				int i = 0;

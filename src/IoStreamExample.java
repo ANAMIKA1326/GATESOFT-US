@@ -10,7 +10,7 @@ public class IoStreamExample {
 				byte[] b = s.getBytes();
 				fout.write(b);
 				fout.write(68);
-				fout.close();
+				//fout.close();
 				System.out.println("completed..!");
 				System.out.println("success..!");
 				
